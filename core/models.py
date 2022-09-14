@@ -1,8 +1,9 @@
+# from django.db import models
 from django.db import models
 
 class Human(models.Model):
     
-    msisdn = models.IntegerField()
+    msisdn = models.BigIntegerField()
     requestdatetime = models.DateTimeField()
     smstext = models.CharField(max_length=200)
 
