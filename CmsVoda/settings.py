@@ -76,8 +76,12 @@ WSGI_APPLICATION = 'CmsVoda.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'd5pffumnd2aksd',
+        'USER': 'wufotnoinkvxpx',
+        'PASSWORD': '6f48c400200bda6ff5f0879c3c04d8644b777cb20c6e98257b1ef59e545128b4',
+        'HOST': 'ec2-3-219-19-205.compute-1.amazonaws.com',
+        'PORT': '5432',
     }
 }
 
