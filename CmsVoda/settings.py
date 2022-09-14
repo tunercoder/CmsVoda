@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-a-n%c(aj3z9g&fnzjqs_u&4+c#2(ycaz7exq$c5gr=@3v$0)k(
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['https://vodacms.herokuapp.com/','127.0.0.1']
+ALLOWED_HOSTS = ['vodacms.herokuapp.com','127.0.0.1']
 
 
 # Application definition
